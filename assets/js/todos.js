@@ -13,7 +13,11 @@ $("ul").on("click", "span", function(e) {
 
 //add new todo
 $("input[type='text']").keypress(function(e) {
-    if(e.which === 13) {
+    //if text box is empty, do not add to ist
+    if($(this).val() === "") {
+        return false;
+    }
+    else if(e.which === 13) {
         //grab new todo text from input
         var todoText = $(this).val();
         //create a new li and add to ul
@@ -28,3 +32,12 @@ $("input[type='text']").keypress(function(e) {
 $(".fa-pencil-alt").click(function() {
     $("input[type=text]").fadeToggle("slow", "linear"); 
 })
+
+//footer date
+// let d = new Date();
+// let yr = d.getFullYear();
+$("footer").html(function() {
+    let d = new Date();
+    let yr = d.getFullYear(); 
+    return `<p>Copyright &copy; ${yr} todo-jquery</p>`;
+});
