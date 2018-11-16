@@ -25,6 +25,6 @@ $("input[type='text']").keypress(function(e) {
 
 //When I press pencil icon, I want the text input box to disappear.
 //When I click it again, I want it to reappear.
-$(".fa-pencil-alt").on("click", function() {
-    $("input[type='text']").fadeToggle(350); 
+$(".fa-pencil-alt").click(function() {
+    $("input[type=text]").fadeToggle("slow", "linear"); 
 })

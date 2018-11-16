@@ -1,14 +1,15 @@
-/* all font */
+/* universal font */
 * {
     font-family: 'Roboto', sans-serif;
 }
-/* all font */
+/* universal font */
 
 /* background */
 body {
     background: #C33764;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 5%; 
 }
 /* background */
 
@@ -29,6 +30,11 @@ main {
     width: 400px;
     background-color: #f7f7f7;
     box-shadow: 0 0 3px rgba(0,0,0,0.15);
+}
+
+.container {
+    max-width: 460;
+    padding: 0;
 }
 
 /* new todo input */
@@ -76,12 +82,10 @@ li:hover span {
 }
 
 span {
-    background-color: rgba(253, 25, 25);
     height: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    color: white;
     width: 0px;
     margin-right: 20px;
     display: inline-block;
@@ -99,6 +103,6 @@ span {
 /* pencil icon */
 .fa-pencil-alt {
     float: right;
-    color: rgb(250, 181, 92, 0.8);
+    color: sandybrown;
 }
 /* pencil icom */
