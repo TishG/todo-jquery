@@ -17,7 +17,7 @@ $("input[type='text']").keypress(function(e) {
         //grab new todo text from input
         var todoText = $(this).val();
         //create a new li and add to ul
-        $("ul").append(`<li><span><i class="fas fa-trash-alt"></i></span> ${todoText}</li>`);
+        $("ul").append(`<li><span class="bg-danger text-white"><i class="fas fa-trash-alt"></i></span> ${todoText}</li>`);
         //clear input box after adding to list
         $(this).val("");
     }
