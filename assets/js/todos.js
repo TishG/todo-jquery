@@ -13,9 +13,9 @@ $("ul").on("click", "span", function(e) {
 
 //add new todo
 $("input[type='text']").keypress(function(e) {
-    //if text box is empty, do not add to ist
+    // if text box is empty, do not add to ist
     if($(this).val() === "") {
-        return false;
+        return;
     }
     else if(e.which === 13) {
         //grab new todo text from input
