@@ -109,14 +109,12 @@ span {
 }
 /* pencil icom */
 
-/* footer */
 footer {
     color: white;
-}
-
-footer p {
-    /* margin-bottom: 1px; */
     text-align: center;
     font-size: 12px;
 }
-/* footer */
+
+footer p {
+    /* font-size: 12px; */
+}
