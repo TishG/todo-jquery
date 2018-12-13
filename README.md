@@ -1,3 +1,39 @@
 # todo-jquery
-Todo app created using html, css, and jquery
+
 ![image](https://user-images.githubusercontent.com/38973991/48472680-62aa5c80-e7bc-11e8-84d6-ea408b8f3ef3.png)
+
+##About
+This is an application where users can create their todos. 
+* The user can click on the pencil icon to show or hide the list
+* User can add a to do by clicking on the "Add New Todo" box
+* User can delete a todo by hovering over the todo until the red trash icon appears and clicking on it
+* If user tries to add a new todo that is blank, it won't add to the list of todos.
+
+##How
+This app was built using:
+* HTML
+* CSS
+* JQuery
+* Bootstrap
+
+I wanted to make this application viewable on all screen sizes and devices. I used bootstrap to incorporate that. I chose my background from uigradients.com.
+
+##Where
+How you can view my application:
+
+Option 1. 
+My GitHub page - [todo-jquery](https://tishg.github.io/todo-jquery/) https://tishg.github.io/todo-jquery/
+
+Option 2. 
+View on your local device:
+1. Under the repository name, click the green "Clone or download" button
+2. Copy the clone URL for the repository
+3. Open Git Bash, you can [download Git Bash if you don't already have it](https://git-scm.com/downloads)
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. In the command line, type "git clone", and then paste the copied URL
+6. Go to your file explorer
+7. Click on the app folder and then navigate to the index.js file 
+8. Right click on index.js and select "Open with" and choose "Google Chrome".
+
+##Follow-up
+The application does not currently persist data. I would like to incorporate a back end in the future so that the users can sign in, sign out, and save their todo list.
