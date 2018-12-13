@@ -2,14 +2,14 @@
 
 ![image](https://user-images.githubusercontent.com/38973991/48472680-62aa5c80-e7bc-11e8-84d6-ea408b8f3ef3.png)
 
-##About
+## About
 This is an application where users can create their todos. 
 * The user can click on the pencil icon to show or hide the list
 * User can add a to do by clicking on the "Add New Todo" box
 * User can delete a todo by hovering over the todo until the red trash icon appears and clicking on it
 * If user tries to add a new todo that is blank, it won't add to the list of todos.
 
-##How
+## How
 This app was built using:
 * HTML
 * CSS
@@ -18,11 +18,11 @@ This app was built using:
 
 I wanted to make this application viewable on all screen sizes and devices. I used bootstrap to incorporate that. I chose my background from uigradients.com.
 
-##Where
+## Where
 How you can view my application:
 
 Option 1. 
-My GitHub page - [todo-jquery](https://tishg.github.io/todo-jquery/) https://tishg.github.io/todo-jquery/
+My GitHub page - https://tishg.github.io/todo-jquery/
 
 Option 2. 
 View on your local device:
@@ -35,5 +35,5 @@ View on your local device:
 7. Click on the app folder and then navigate to the index.js file 
 8. Right click on index.js and select "Open with" and choose "Google Chrome".
 
-##Follow-up
+## Follow-up
 The application does not currently persist data. I would like to incorporate a back end in the future so that the users can sign in, sign out, and save their todo list.
